@@ -5,7 +5,7 @@ services:
     image:  mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: root-pwd
-      MYSQL_DATABASE: databse
+      MYSQL_DATABASE: database
       MYSQL_USER: user
       MYSQL_PASSWORD: pwd
 
@@ -23,7 +23,7 @@ services:
       MYSQL_PASSWORD: pwd
       BACKEND_API_KEY: basic-usr
       BACKEND_API_SECRET: basic-pwd
-      JWT_SECRET: jWtSecrEte
+      JWT_SECRET: jWtSecrEt
       SENTRY_DSN: ""
     
     depends_on:
